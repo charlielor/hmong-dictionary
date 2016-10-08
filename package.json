@@ -1,0 +1,32 @@
+{
+  "name": "hmong-dictionary",
+  "version": "0.0.1",
+  "description": "A Hmong dictionary",
+  "main": "lib/dictionary.js",
+  "scripts": {
+    "test": "mocha tests/dictionary.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlielor/hmong-dictionary.git"
+  },
+  "keywords": [
+    "hmong",
+    "dictionary"
+  ],
+  "author": "Charlie Lor <lorcharlie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlielor/hmong-dictionary/issues"
+  },
+  "homepage": "https://github.com/charlielor/hmong-dictionary#readme",
+  "dependencies": {
+    "mongoose": "^4.6.3"
+  },
+    "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-google": "^0.6.0",
+    "mocha": "^3.1.0",
+    "should": "^11.1.0"
+  }
+}
